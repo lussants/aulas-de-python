@@ -11,7 +11,8 @@ def main():
 
         i += 1
     media /= 4
-    print(media)
+    print(f" A media foi {media:,.3}")
+          
     if media >= 6:
         print("Aprovado")
     elif media >= 4:
